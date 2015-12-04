@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github_apple"
+      fetch="https://github.com/apple" />
+
+  <default remote="github_apple"
+      revision="master" />
+
+  <project name="swift" path="swift" />
+  <project name="swift-llvm" path="llvm" revision="stable" />
+  <project name="swift-clang" path="clang" revision="stable" />
+  <project name="swift-lldb" path="lldb" />
+  <project name="swift-cmark" path="cmark" />
+  <project name="swift-llbuild" path="llbuild" />
+  <project name="swift-package-manager" path="swiftpm" />
+  <project name="swift-corelibs-xctest" path="swift-corelibs-xctest" />
+  <project name="swift-corelibs-foundation" path="swift-corelibs-foundation" />
+
+</manifest>
+
